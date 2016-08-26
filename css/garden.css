@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image: url(../images/garden-bg.jpg);
+	background-color: #fefefc;
+	background-repeat: repeat-x;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+#globe-bg
+{
+	background-image: url(../images/globe-bg.png);
+	background-repeat: no-repeat;
+	height: 412px;
+	width: 417px;
+	right: 0px;
+	position: absolute;
+	z-index: 1;
+	top: 4px;
+}
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+h1
+{
+	font-size: 14px;
+	width: 650px;
+	padding-bottom: 5px;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8F8C79;
+}
+h2
+{
+	font-size: 13px;
+	width: 650px;
+	padding-bottom: 5px;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8F8C79;
+	padding-top: 2px;
+}
+h3
+{
+	font-size: 12px;
+	width: 95%;
+	padding-bottom: 5px;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8F8C79;
+}
+h4
+{
+	font-size: 11px;
+	width: 95%;
+	padding-bottom: 5px;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8F8C79;
+}
+h5
+{
+	font-size: 10px;
+	width: 95%;
+	padding-bottom: 5px;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8F8C79;
+}
+a:link, a:visited
+{
+	color: #0000CC;
+}
+
+a:hover
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+ul
+{
+	padding-right: 10px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+a img
+{
+	border: 0 none;
+}
+img 
+{
+	border: 0 none;
+}
+
+/*******************************************/
+
+#container
+{
+	z-index: 10;
+	position: relative;
+}
+#header
+{
+	height: 96px;
+	width: 985px;
+	text-align: center;
+	z-index: 10;
+}
+#text-body-bg
+{
+	width: 985px;
+	height: auto;
+	background-image: url(../images/garden-txbody.png);
+	background-repeat: repeat-y;
+}
+#nav-bg
+{
+	background-image: url(../images/nav-bg.jpg);
+	background-repeat: repeat-y;
+	background-position: 0px;
+	width: 961px;
+}
+#text-top-image
+{
+	height: 169px;
+	width: 961px;
+	visibility: visible;
+}
+#text-body
+{
+	width: 961px;
+	position: relative;
+}
+
+/**************************************** Left Nav ********************************************/
+
+#left-nav
+{
+	width: 200px;
+	text-align: left;
+	height: 20px;
+	position: relative;
+	margin-left: -2px;
+	padding-left: -2px;
+}
+#navcontainer {
+	position: relative;
+	padding-left: 0px;
+	margin-left: 0px;
+	text-indent: 20px;
+	text-align: left;
+	display: block;
+	visibility: visible;
+	width: 196px;
+	float: right;
+}
+
+#navcontainer ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#navcontainer li 
+{
+	margin: 0px;
+	padding-bottom: 3px;
+}
+
+#navcontainer a, #navcontainer a:active
+{
+	display: block;
+	color: #f5f5eb;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 196px;
+	background-image: url(../images/nav-down.png);
+	background-repeat: no-repeat;
+}
+
+#navcontainer a:hover
+{
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	background-image: url(../images/nav-up.jpg);
+}
+
+body#home a#homenav,
+body#gis-data a#gis-datanav,
+body#use a#usenav,
+body#service a#servicenav
+{
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	background-image: url(../images/nav-up.jpg);
+}
+/***********************************************/
+
+#contact
+{
+	font-size: 10px;
+	width: 180px;
+	height: 54px;
+	color: #FFF;
+	text-align: left;
+	line-height: normal;
+	padding-bottom: 35px;
+	padding-left: 20px;
+	font-weight: normal;
+	position: absolute;
+	bottom: 25px;
+}
+#contact a:link, #contact a:visited
+{
+	color: #FFF;
+}
+#contact a:hover
+{
+	color: #000;
+}
+#text-body-right
+{
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	right: 0px;
+	width: 730px;
+	position: relative;
+}
+#sub
+{
+	position: absolute;
+	top: 24px;
+}
+.subtitle
+{
+	font-weight: bold;
+}
+.image-left
+{
+}
+.image-right
+{
+	float: right;
+}
+/********************************************* Footer *****************************************/
+
+#text-body-footer
+{
+	background-image: url(../images/garden-txt-footer.png);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 985px;
+}
+#footer-text
+{
+	font-size: 10px;
+	padding-top: 10px;
+	color: #686556;
+}
+
+#footer-text a:link, #footer-text a:visited
+{
+	color: #6A6754;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#footer-text a:hover
+{
+	color: #AB9F89;
+}
